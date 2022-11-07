@@ -70,7 +70,7 @@ Wastage AREA 8 1
 Wastage AREA 9 1
 Weldnumbers  OFF
 Weldid OFF
-Weldtype  OFF
+Weldtype  ON
 Underlayplot  "%DAIISO%\UND\ISO-A2-SM.plt" 1
 SymbolFile "%DAIISO%\UND\ISOSYMBOL" READONLY
 MessageFile "C:\DB\MESS" OVERWRITE
