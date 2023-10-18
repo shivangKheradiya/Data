@@ -1,0 +1,5 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `findPCR`( pcOI bigint, ceOI bigint) RETURNS double
+    DETERMINISTIC
+BEGIN
+RETURN ( ifnull(  ( pcOI / ceOI ) , 0)) ;
+END
